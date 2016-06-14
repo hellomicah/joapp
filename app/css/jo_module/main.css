@@ -1,0 +1,22 @@
+//All CSS Style for JO Module
+
+body {
+font-size: 10px !important;
+}
+
+thead {
+font-size: 10px !important;
+}
+tbody#gridview-val {
+font-size: 6px !important;
+}
+#delivery_date, #date_received, #comments, #quantity, #output, #days_allotted,
+#delivery_1, #delivery_2, #delivery_3, #delivery_4, #delivery_5, #second_quality, #unfinished, #lacking,
+ #salesman_sample, #audit_date
+{
+color: #428BCA !important;
+text-decoration: none !important; 
+//border-bottom: 1px dashed #08C !important;
+cursor: pointer;
+}
+.datepicker{z-index:1200 !important;}
